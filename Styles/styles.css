@@ -1,0 +1,111 @@
+* {
+    margin: 2px;
+    padding: 0px;
+
+}
+
+header {
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #740202;
+}
+
+nav {
+    display: inline;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 1px #fff;
+    padding: inherit;
+    padding-left: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+}
+
+nav li {
+    border: #fff;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto Mono';
+}
+
+h1 {
+    font-family: "Creepster";
+    font-size: 50px;
+    color: #a40101;
+    text-align: center;
+}
+
+#personajes {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+    justify-content: center;
+}
+
+#personajes h2 {
+    font-size: 20px;
+    color: #a40101;
+    padding: 20px;
+}
+
+#personajes img {
+    width: 250px;
+    height: 250px;
+}
+
+.personaje {
+    color: #fff;
+    padding: 10px;
+}
+
+#juego {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+    justify-content: center;
+}
+
+#juego h2 {
+    font-size: 20px;
+    color: #a40101;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #a40101;
+    color: #fff;
+  }
