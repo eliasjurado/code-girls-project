@@ -79,7 +79,6 @@ h1 {
 #personajes {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
@@ -89,6 +88,7 @@ h1 {
 
 .contenedor {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cuadro {
