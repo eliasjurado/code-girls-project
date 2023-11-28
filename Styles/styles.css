@@ -38,6 +38,7 @@ nav li {
     border-style: solid;
     border-width: 1px;
     padding: 5px;
+    margin:auto 15px;
     display: flex;
 }
 
@@ -48,6 +49,17 @@ nav a {
     padding: 2px;
     justify-content: center;
     align-items: center;
+}
+
+nav li:hover {
+    border:#740202;
+    border-style: solid;
+    border-width: 2px;
+    scale: 1.5;
+}
+
+nav a:hover {
+    color:#740202;
 }
 
 body {
@@ -62,13 +74,27 @@ h1 {
     text-align: center;
 }
 
+
+
 #personajes {
     display: flex;
+    flex-direction: column;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
     border-bottom: 2px solid #fff;
-    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 #personajes h2 {
@@ -89,11 +115,13 @@ h1 {
 
 #juego {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 20px;
     border-bottom: 2px solid #fff;
-    justify-content: center;
+    align-items: center;
 }
 
 #juego h2 {
